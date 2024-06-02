@@ -6,8 +6,20 @@
   body{
     @apply font-primary bg-primary text-black leading-loose;
   }
+  .h1{
+    @apply text-[38px] xl:text-[50px] leading-[1.1] 
+  }
+  .h2{
+    @apply text-[28px] xl:text-[38px] leading-[1.1] 
+  }
+  .h3{
+    @apply text-[18px] xl:text-[28px] leading-[1.1] 
+  }
+  
 }
 /* styles/globals.css */
 html {
   scroll-behavior: smooth;
 }
+
+

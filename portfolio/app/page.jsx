@@ -10,10 +10,10 @@ export default function Home() {
   return (
    <main>
     <HomePage/>
-    <Projects/>
+    {/* <Projects/>
     <Repositories/>
     <About/>
-    <Contact/>
+    <Contact/> */}
    </main>
   );
 }
