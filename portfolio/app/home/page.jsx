@@ -1,12 +1,16 @@
 import { FiDownload } from "react-icons/fi";
 import { Button } from "@/components/ui/button";
+import { Social } from "./Social";
+import { Photo } from "./Photo";
+import { Stats } from "./Stats";
+
 
 export const HomePage = () => {
   return (
     <section id="home" className="h-full">
           <div className="container mx-auto">
-            <div className="flex flex-col xl:flex-row gap-10 justify-between items-center xl:pt-8 xl:pb-24">
-              <div className="text-center xl:text-left">
+            <div className="flex flex-col xl:flex-row gap-2 xl:gap-10 justify-between items-center xl:pt-16 xl:pb-20 ">
+              <div className="text-center xl:text-left order-2 xl:order-none">
                 <span span="text-xl">Full Stack Developer</span>
                 <h1 className="h2 mb-2">
                 Hello I'm<br/><span className="h1 font-extrabold ">Shashmitha Bandara</span>
@@ -18,16 +22,17 @@ export const HomePage = () => {
                   <span className="mx-auto">Download CV</span>
                   <FiDownload/>
                 </Button>
-                <div className="">
-                  socail
+                <div className="xl:mx-6">
+                <Social containerStyle="flex gap-8" iconStyle="w-9 h-9 flex justify-center items-center border rounded-full border-accent text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"/>
                 </div>
               </div>
               </div>
 
-              <div className="photo">
-photo
+              <div className="photo order-1 xl:order-none">
+              <Photo />
               </div>
             </div>
+            <Stats/>
           </div>
         </section>
   )
