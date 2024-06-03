@@ -14,7 +14,7 @@ export const Stats = () => {
                 <CountUp end={7}  duration={5}  delay={2} className="text-4xl xl:text-6xl order-1 xl:order-none" formattingFn={formatNumber}/>
                 
             </div>
-            <Divider orientation="vertical" flexItem sx={{border: '2px solid black'}} className="hidden xl:block" />
+            <Divider orientation="vertical" flexItem sx={{border: '2px solid black'}} className="hidden xl:block"/>
             <div className="flex xl:flex-row flex-col xl:gap-7 justify-center items-center">
                 
                 <CountUp end={500}  duration={5}  delay={2} className="text-4xl xl:text-6xl order-1 xl:order-none" formattingFn={formatNumber}/>

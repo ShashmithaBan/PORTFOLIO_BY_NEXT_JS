@@ -9,8 +9,8 @@ export const HomePage = () => {
   return (
     <section id="home" className="h-full">
           <div className="container mx-auto">
-            <div className="flex flex-col xl:flex-row gap-2 xl:gap-10 justify-between items-center xl:pt-16 xl:pb-20 ">
-              <div className="text-center xl:text-left order-2 xl:order-none">
+            <div className="flex flex-col xl:flex-row gap-2 xl:gap-10 justify-between items-center pt-5 xl:pt-52 xl:pb-24  ">
+              <div className="text-center xl:text-left order-2 xl:order-none xl:pt-0 pt-5">
                 <span span="text-xl">Full Stack Developer</span>
                 <h1 className="h2 mb-2">
                 Hello I'm<br/><span className="h1 font-extrabold ">Shashmitha Bandara</span>
