@@ -52,7 +52,7 @@ export const Projects = () => {
     setProject(projects[currentIndex]);
   }
   const [project ,setProject] = useState(projects[0]);
-  return <motion.section id="projects" initial={{opacity:0}}  animate={{opacity:1 , transition:{delay:2.4 , duration:0.4 , ease:'easeIn'}}} className="min-h-[80vh] flex flex-col justify-center items-center h-screen">
+  return <motion.section id="projects" initial={{opacity:0}}  animate={{opacity:1 , transition:{delay:2.4 , duration:0.4 , ease:'easeIn'}}} className="min-h-[80vh] flex flex-col justify-center items-center h-screen xl:py-2  py-12">
     <div className="container mx-auto px-2 xl:px-0">
       <div className="flex flex-col xl:flex-row xl:gap-[30px]">
         <div className="w-full xl:w-[50%] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -60,7 +60,7 @@ export const Projects = () => {
             <div className=" text-8xl xl:text-9xl  leading-none font-extrabold ">{project.num}</div>
             <h2 className="text-[33px] font-bold capitalize group-hover:text-accent transition-all duration-500">{project.Category} project</h2>
           <p className="text-accent text-sm">{project.description}</p>
-          <ul className="flex flex-row gap-5 text-green-700">
+          <ul className="flex flex-row gap-5 text-blue-500">
             {
               project.stacks.map((item,index)=>{
                 return <li key={index} className="text-md">{item.name}
