@@ -11,9 +11,9 @@ export default function Home() {
    <main>
     <HomePage/>
      <Projects/>
-    {/*<Repositories/>
+    {/* <Repositories/> */}
     <About/>
-    <Contact/> */}
+    {/* <Contact/> */}
    </main>
   );
 }
