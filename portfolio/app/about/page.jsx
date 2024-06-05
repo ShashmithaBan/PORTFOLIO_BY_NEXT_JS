@@ -124,7 +124,8 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 
 export const About = () => {
   return (
-    <section id="about" className="min-h-[80vh] flex flex-col justify-center items-center  xl:py-2  py-24">
+    <section id="about" className="min-h-[80vh] flex flex-col justify-center items-center  xl:py-36 xl:mt-14  py-24">
+      <h1 className="xl:hidden text-center text-2xl font-semibold mb-6 underline">About</h1>
           <div className="container mx-auto">
           <Tabs defaultValue='about' className='flex flex-col xl:flex-row gap-[60px]'>
             <TabsList className = 'flex flex-col w-full  xl:w-[400px] xl-mx-0 gap-6'>
@@ -200,7 +201,7 @@ export const About = () => {
                       <TooltipProvider delayDuration={100}>
           <Tooltip>
             <TooltipTrigger>
-              <div className="w-[170px] h-[150px] bg-neutral-300 rounded-xl flex justify-center items-center group ">
+              <div className="md:w-[170px] h-[150px] w-[195px] bg-neutral-300 rounded-xl flex justify-center items-center group ">
                 <div className="text-6xl group-hover:text-blue-500 transition-all duration-0 cursor-pointer">
                   {skill.icon}
                 </div>
