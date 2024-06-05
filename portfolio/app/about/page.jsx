@@ -200,7 +200,7 @@ export const About = () => {
                       <TooltipProvider delayDuration={100}>
           <Tooltip>
             <TooltipTrigger>
-              <div className="w-[170px] h-[150px] bg-neutral-300 rounded-xl flex justify-center items-center group ">
+              <div className="md:w-[170px] h-[150px] w-[195px] bg-neutral-300 rounded-xl flex justify-center items-center group ">
                 <div className="text-6xl group-hover:text-blue-500 transition-all duration-0 cursor-pointer">
                   {skill.icon}
                 </div>
