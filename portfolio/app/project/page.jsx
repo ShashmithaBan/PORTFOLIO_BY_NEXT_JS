@@ -52,7 +52,7 @@ export const Projects = () => {
     setProject(projects[currentIndex]);
   }
   const [project ,setProject] = useState(projects[0]);
-  return <motion.section id="projects" initial={{opacity:0}}  animate={{opacity:1 , transition:{delay:2.4 , duration:0.4 , ease:'easeIn'}}} className="min-h-[80vh] flex flex-col justify-center items-center h-screen xl:py-2  py-12">
+  return <section id="projects"  className="min-h-[80vh] flex flex-col justify-center items-center xl:pt-72 py-12">
     <div className="container mx-auto px-2 xl:px-0">
       <div className="flex flex-col xl:flex-row xl:gap-[30px]">
         <div className="w-full xl:w-[50%] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -120,6 +120,6 @@ export const Projects = () => {
         </div>
       </div>
     </div>
-  </motion.section>
+  </section>
     
 }

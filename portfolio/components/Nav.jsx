@@ -14,10 +14,6 @@ const links = [
     path: "#projects",
   },
   {
-    name: "repositories",
-    path: "#repositories",
-  },
-  {
     name: "about",
     path: "#about",
   },
