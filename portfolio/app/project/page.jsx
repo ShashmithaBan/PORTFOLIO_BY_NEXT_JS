@@ -16,7 +16,7 @@ import { WorkSliderBtn } from "./WorkSliderBtn";
  const projects = [
   {
     num:"01",
-    Category : "full stack",
+    Category : "Full Stack",
     title :"project 01",
     description:"Enjoy hassle-free food delivery with our platform, offering secure authentication, streamlined admin controls, and a user-friendly interface. Order your favorite meals effortlessly and indulge in a seamless dining experience. ",
     stacks:[{name:"React JS"} , {name:"Tailwind CSS"},{name:"SpringBoot"}],
@@ -25,17 +25,27 @@ import { WorkSliderBtn } from "./WorkSliderBtn";
   },
   {
     num:"02",
+    Category : "Full Stack",
+    title :"project 03",
+    description:"In June 2024, I developed a full-stack Hotel Management System that allows users to book rooms and search for rooms online. This comprehensive platform also provides administrative functionalities for managing room details efficiently. Utilizing modern technologies, the system ensures seamless user experiences with intuitive interfaces and robust backend support. My project reflects a commitment to delivering high-quality web solutions, addressing both user and admin needs in the hospitality sector.",
+    stacks:[{name:"React JS"} , {name:"Tailwind CSS"},{name:"SpringBoot"}],
+    image:"/Assets/Project-hms.png",
+    github:"https://github.com/ShashmithaBan/EKBAR-HMS_REACT_JS_TAILWINDCSS.git",
+    github:"git@github.com:ShashmithaBan/EkBar-HMS-Backend_BY_SPRINGBOOT-.git",
+  },
+  {
+    num:"03",
     Category : "Front End",
-    title :"project 02",
+    title :"project 03",
     description:"In September 2023, I crafted my personal portfolio website from scratch using HTML and CSS. With a clean and modern design, this platform showcases my skills, projects, and achievements to the world. From elegant layouts to smooth navigation, my portfolio reflects my dedication to creating polished and professional web experiences. ",
     stacks:[ {name:"HTML"},{name:"CSS"}],
     image:"/Assets/Project_02.png",
     github:"https://github.com/ShashmithaBan/My-Portfolio-By-HTML-and-CSS-in-2023",
   },
   {
-    num:"03",
+    num:"04",
     Category : "Full Stack",
-    title :"project 03",
+    title :"project 04",
     description:"Built a full-stack liquor store website with PHP, HTML, and CSS. Collaborated on features like user authentication and product management, showcasing skills in web development and teamwork.",
     stacks:[{name:"Php"} , {name:"HTML"},{name:"CSS"}],
     image:"/Assets/Project_03.png",
@@ -46,9 +56,9 @@ import { WorkSliderBtn } from "./WorkSliderBtn";
 
 export const Projects = () => {
   const handleSlideChange = (swiper) =>{
-    //get current slide index
+
     const currentIndex= swiper.activeIndex
-    //update project state based on current slide index
+
     setProject(projects[currentIndex]);
   }
   const [project ,setProject] = useState(projects[0]);
@@ -64,7 +74,7 @@ export const Projects = () => {
             {
               project.stacks.map((item,index)=>{
                 return <li key={index} className="text-md">{item.name}
-                 {index !== project.stacks.length -1 && ","}{/* to remove the last comma */}
+                 {index !== project.stacks.length -1 && ","}
                 </li>
               } 
               )

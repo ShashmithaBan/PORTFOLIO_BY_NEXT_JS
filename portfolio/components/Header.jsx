@@ -14,8 +14,8 @@ export const Header = () => {
         </Link>
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
-            <Button>Download CV</Button>
+          <Link href="/Assets/Shashmitha_Bandara.pdf">
+          <Button>Download CV</Button>
           </Link>
         </div>
         <div className="xl:hidden flex items-center">
