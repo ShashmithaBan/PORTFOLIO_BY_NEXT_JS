@@ -33,7 +33,7 @@ export const Contact = () => {
       <div className="bg-neutral-300 p-10 max-w-[700px] m-2  flex flex-col lg:flex-row gap-[20px] order-2 xl:order-none rounded-3xl">
           
           <form action="https://formsubmit.co/gimansabandara2001@gmail.com" method="POST">
-          <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold text-blue-500 flex justify-center lg:justify-start'>Let's Work Together</h1>
+          <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold text-blue-500 flex justify-center lg:justify-start'>Let&apos;s Work Together</h1>
           <p className='text-sm text-accent m-2'>Thank you for reaching out! I appreciate your interest and will get back to you as soon as possible. Looking forward to connecting!</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-5">
             <Input type='firstname' name="firstname" placeholder='First Name'/>
