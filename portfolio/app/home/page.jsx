@@ -12,9 +12,11 @@ export const HomePage = () => {
           <div className="text-center xl:text-left order-2 xl:order-none xl:pt-0 pt-5">
             <span className="text-xl">Full Stack Developer</span>
             <h1 className="h2 mb-2">
+
               Hello I&apos;m
               <br />
               <span className="h1 font-extrabold">Shashmitha Bandara</span>
+
             </h1>
             <p className="max-w-[500px] text-sm">
               I&apos;m a dynamic developer, fluent in both full-stack and mobile app development. I thrive on crafting sleek, user-centric solutions that elevate digital experiences across platforms.
